@@ -5,8 +5,8 @@ import (
 
 	"log"
 
-	"github.com/makasim/amqpextra"
-	"github.com/makasim/amqpextra/consumer"
+	"github.com/latifrons/amqpextra"
+	"github.com/latifrons/amqpextra/consumer"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

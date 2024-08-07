@@ -10,9 +10,9 @@ import (
 
 	"fmt"
 
-	"github.com/makasim/amqpextra/consumer"
-	"github.com/makasim/amqpextra/logger"
-	"github.com/makasim/amqpextra/publisher"
+	"github.com/latifrons/amqpextra/consumer"
+	"github.com/latifrons/amqpextra/logger"
+	"github.com/latifrons/amqpextra/publisher"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

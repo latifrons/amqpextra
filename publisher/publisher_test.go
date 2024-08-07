@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/makasim/amqpextra/logger"
-	"github.com/makasim/amqpextra/publisher"
-	"github.com/makasim/amqpextra/publisher/mock_publisher"
+	"github.com/latifrons/amqpextra/logger"
+	"github.com/latifrons/amqpextra/publisher"
+	"github.com/latifrons/amqpextra/publisher/mock_publisher"
 )
 
 func TestNotify(main *testing.T) {

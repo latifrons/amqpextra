@@ -3,7 +3,7 @@ package middleware_test
 import (
 	"context"
 
-	"github.com/makasim/amqpextra/consumer"
+	"github.com/latifrons/amqpextra/consumer"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/stretchr/testify/mock"
 )

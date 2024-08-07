@@ -2,7 +2,7 @@
 package amqpextra
 
 import (
-	"github.com/makasim/amqpextra/publisher"
+	"github.com/latifrons/amqpextra/publisher"
 )
 
 func NewPublisher(

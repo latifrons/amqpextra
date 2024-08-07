@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/makasim/amqpextra/consumer"
-	"github.com/makasim/amqpextra/consumer/mock_consumer"
-	"github.com/makasim/amqpextra/logger"
+	"github.com/latifrons/amqpextra/consumer"
+	"github.com/latifrons/amqpextra/consumer/mock_consumer"
+	"github.com/latifrons/amqpextra/logger"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

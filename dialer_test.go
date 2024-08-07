@@ -14,9 +14,9 @@ import (
 	"context"
 
 	"github.com/golang/mock/gomock"
-	"github.com/makasim/amqpextra"
-	"github.com/makasim/amqpextra/logger"
-	"github.com/makasim/amqpextra/mock_amqpextra"
+	"github.com/latifrons/amqpextra"
+	"github.com/latifrons/amqpextra/logger"
+	"github.com/latifrons/amqpextra/mock_amqpextra"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

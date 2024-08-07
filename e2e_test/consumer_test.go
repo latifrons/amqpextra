@@ -11,9 +11,9 @@ import (
 	amqp "github.com/rabbitmq/amqp091-go"
 	"go.uber.org/goleak"
 
-	"github.com/makasim/amqpextra"
-	"github.com/makasim/amqpextra/consumer"
-	"github.com/makasim/amqpextra/e2e_test/helper/rabbitmq"
+	"github.com/latifrons/amqpextra"
+	"github.com/latifrons/amqpextra/consumer"
+	"github.com/latifrons/amqpextra/e2e_test/helper/rabbitmq"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

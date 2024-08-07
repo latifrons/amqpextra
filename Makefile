@@ -10,9 +10,9 @@ lint:
 ## unit-test: run unit  tests
 unit-test:
 ifndef NOMOCKGEN
-	mockgen github.com/makasim/amqpextra/publisher AMQPConnection,AMQPChannel > publisher/mock_publisher/mocks.go
-	mockgen github.com/makasim/amqpextra/consumer AMQPConnection,AMQPChannel > consumer/mock_consumer/mocks.go
-	mockgen github.com/makasim/amqpextra AMQPConnection > mock_amqpextra/mocks.go
+	mockgen github.com/latifrons/amqpextra/publisher AMQPConnection,AMQPChannel > publisher/mock_publisher/mocks.go
+	mockgen github.com/latifrons/amqpextra/consumer AMQPConnection,AMQPChannel > consumer/mock_consumer/mocks.go
+	mockgen github.com/latifrons/amqpextra AMQPConnection > mock_amqpextra/mocks.go
 endif
 	
 	$(GOTEST) -race -v -cover -run $(RUNTEST) ./ ./publisher/... ./consumer/...

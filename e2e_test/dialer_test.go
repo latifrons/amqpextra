@@ -10,8 +10,8 @@ import (
 
 	"time"
 
-	"github.com/makasim/amqpextra"
-	"github.com/makasim/amqpextra/e2e_test/helper/rabbitmq"
+	"github.com/latifrons/amqpextra"
+	"github.com/latifrons/amqpextra/e2e_test/helper/rabbitmq"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"

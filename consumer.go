@@ -2,7 +2,7 @@
 package amqpextra
 
 import (
-	"github.com/makasim/amqpextra/consumer"
+	"github.com/latifrons/amqpextra/consumer"
 )
 
 func NewConsumer(
