@@ -226,8 +226,8 @@ func WithExchange(exchange, routingKey string) Option {
 		c.resetSource()
 		c.exchange = exchange
 		c.routingKey = routingKey
-		c.declareAutoDelete = true
-		c.queueDeclare = true
+		//c.declareAutoDelete = true
+		//c.queueDeclare = true
 	}
 }
 
@@ -277,6 +277,7 @@ func WithConsumeArgs(consumer string, autoAck, exclusive, noLocal, noWait bool, 
 }
 
 func (c *Consumer) resetSource() {
+	return
 	c.queue = ""
 	c.queueDeclare = false
 	c.declareDurable = false
